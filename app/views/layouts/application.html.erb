@@ -5,11 +5,21 @@
   <%= stylesheet_link_tag    'application', media: 'all' %>
   <%= javascript_include_tag 'application' %>
   <link href='https://fonts.googleapis.com/css?family=Handlee' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Caveat:400,700' rel='stylesheet' type='text/css'>
+  <%= favicon_link_tag %>
   <%= csrf_meta_tags %>
 </head>
 <body>
-
-<%= yield %>
+  <header>
+    <h1>Your Greene Doula</h1>
+    <ul class="nav-right">
+      <li><%= mail_to("yourgreenedoula@gmail.com", name = "yourgreenedoula@gmail.com", subject: "I found you at yourgreenedoula.com...hi!") %></li>
+      <li><a href="https://www.facebook.com/kellie.greene.ombellies">Facebook</a></li>
+      <li><a href="https://instagram.com/yourgreenedoula/">Instagram</a></li>
+      <li><a href="https://twitter.com/agreenedoula">Twitter</a></li>
+    </ul>
+  </header>
+  <%= yield %>
 
 </body>
 </html>

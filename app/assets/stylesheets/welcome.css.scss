@@ -4,16 +4,50 @@
 
 .welcome-container {
   width: 900px;
-  margin: 0 auto;
+  margin-top: 3em;
+  margin-left: auto;
+  margin-right: auto;
+  clear: both;
 }
 
 .welcome-container img {
+  width: 70%;
   display: block;
-  margin: 0 auto;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.welcome-container h1,h2,p {
+#kellie-pic-container {
+  width: 40%;
+  border-radius: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  overflow: hidden;
   text-align: center;
+}
+
+#kellie-pic {
+  /*display: block;*/
+  margin: 0 auto;
+  width: 105%;
+}
+
+.welcome-container h1,h2,h3,p {
+  text-align: center;
+}
+
+.welcome-container h1 {
+
+}
+
+.welcome-container h2 {
+  margin-bottom: -10px;
+}
+
+.welcome-container h2:last-of-type {
+  margin-bottom: 10px;
 }
 
 #contact-info {
@@ -21,6 +55,10 @@
 }
 
 #contact-info p {
-  font-size: 16pt;
+  font-size: 18pt;
   margin: 6px;
+}
+
+#contact-info p:last-of-type {
+  margin-bottom: 30px;
 }
