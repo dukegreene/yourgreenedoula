@@ -1,0 +1,15 @@
+<div class="welcome-container">
+
+  <%= image_tag "welcome-header.jpg" %>
+  <h1>Welcome to yourgreenedoula.com!</h1>
+  <h2>If this site was a baby, it would still be in the first trimester. Thanks for visiting!</h2>
+  <h2>If you'd like to get in touch with me to ask any questions or schedule a free consultation, please refer to my contact info below.</h2>
+
+  <div id="contact-info">
+    <h1>Kellie Greene (Your Greene Doula!)</h1>
+    <p><%= mail_to("yourgreenedoula@gmail.com", name = "Email - yourgreenedoula@gmail.com", subject: "I found you at yourgreenedoula.com...hi!") %></p>
+    <p><a href="https://www.facebook.com/kellie.greene.ombellies">Facebook - Kellie Greene</a></p>
+    <p><a href="https://instagram.com/yourgreenedoula/">Instagram - @yourgreenedoula</a></p>
+    <p><a href="https://twitter.com/agreenedoula">Twitter - @agreenedoula</a></p>
+  </div>
+</div>
