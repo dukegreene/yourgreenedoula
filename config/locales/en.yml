@@ -20,4 +20,14 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
-  hello: "Hello world"
+  helpers:
+    label:
+      visitor:
+        name: "Name:"
+        email: "Email:"
+        phone: "Phone number (optional):"
+      visitor_email:
+        body: "Your message:"
+    submit: 
+      visitor:
+        create: "Send Email"
